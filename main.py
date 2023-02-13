@@ -51,5 +51,4 @@ def main():
 			video_object.streams.get_lowest_resolution().download()
 	if st.button("view"): 
 		st.video(path) 
-if _name_ == '_main_':
-	main()
+main()
